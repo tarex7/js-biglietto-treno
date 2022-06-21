@@ -13,8 +13,8 @@ let price = kmTrip * 0.21;
 let ticketPrice = price.toFixed(2);
 
 //Prezzi scontati
-let priceUnder18 = ticketPrice - ticketPrice * 0.2;
-let priceOver65 = ticketPrice - ticketPrice * 0.4;
+let priceUnder18 = ticketPrice - (ticketPrice * 0.2);
+let priceOver65 = ticketPrice - (ticketPrice * 0.4);
 
 //Mostra nella UI
 kmTripUI.innerText = kmTrip;
